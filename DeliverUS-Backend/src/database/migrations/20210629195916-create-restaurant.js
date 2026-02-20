@@ -78,6 +78,14 @@ module.exports = {
           },
           key: 'id'
         }
+      },
+      createdAt: {
+        allowNull: false,
+        type: Sequelize.DATE
+      },
+      updatedAt: {
+        allowNull: false,
+        type: Sequelize.DATE
       }
       // TODO: Include the rest of the fields of the Restaurants table
     })
